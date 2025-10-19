@@ -1,45 +1,98 @@
-# Comparitive analysis of TTS tools in Tamil Language
+# Tamil TTS Evaluation Project
 
-A bachelor thesis work by the author, Sujai Shanmugam.
-
----
-
-# Tamil Learning Material Dataset
-
-This repository contains a comprehensive dataset which were created for research in the domain of **Tamil language learning**, **Computer Science**, **Computer Application**, **Tamil Ulagam material trascription**, **NLP**, and **Artificial Intelligence**. 
-
-The dataset was designed to support the bachelor thesis which was educational projects, and experimentation in natural language processing (NLP), text analytics and TTS comparison for creating learning materials.
+Welcome to the **Tamil Text to Speech (TTS) Comparison Project** repository. This project was part of my Bachelor's thesis on evaluating existing TTS tools for the Tamil language. It contains all the necessary code, datasets, and evaluation scripts for generating/creating synthesized speech output learning materials and analyzing it using objective and subjective metrics.
 
 ---
 
-## Dataset
+## Project Overview
 
-Currently, the repository contains the dataset in **TXT format**:
+The main goal of this project is to **analyze the performance of different Tamil TTS tools** and compare their outputs to human reference speech. The evaluation includes:
 
-- `tamil-learning-material-dataset.txt`: Contains structured text-based learning material for Tamil students.  
+* **Text-to-Speech Generation** using 6 TTS tools
+  
+* **Objective Metrics:**
 
-> **Note:** A `.csv` version of this dataset will be added in a future update for easier integration with data processing and machine learning workflows.
+  * **Word Error Rate (WER)**
+  * **Mel-Cepstral Distortion (MCD)**
+  * **F0 Root Mean Square Error (F0 RMSE)**
+    
+* **Subjective Metrics:**
+
+  * **Comparative Mean Opinion Score (CMOS)** 
+
+The project also includes all datasets used for testing the TTS and the evaluation data collected from 30 participants.
 
 ---
 
-## Dataset Purpose
+## Tools and Technologies
 
-The dataset was intended for:
+* **Programming Language:** Python 3.12
+  
+* **TTS Models:**
 
-- Academic research and thesis references.  
-- Learning material in Tamil language concepts in **Computer Science**,  **Computer Application**, **NLP**.  and **AI**.   
+  * Meta’s MMS-TTS
+  * Google TTS
+  * eSpeak
+  * IndicTTS
+  * gTTS
+  * Bhashini TTS
+  
+* **Libraries:**
+  `transformers`, `torch`, `librosa`, `numpy`, `scipy`, `pandas`, `seaborn`, `matplotlib`, `whisper`
+  
+* **Data Analysis & Visualization:** Pandas, Matplotlib, Seaborn :)
 
 ---
 
 ## Usage
 
-You can download the dataset directly from this repository for:
+1. **TTS Generation**
+
+   * Use the scripts in `/TTS tools` to generate speech from text or CSV datasets.
+  
+2. **Objective Evaluation**
+
+   * Run the scripts in `/Evalution metrics` to calculate WER, MCD, and F0 RMSE for synthesized speech.
+
+3. **Subjective Evaluation**
+
+   * Use `Dataset/CMOS/cmos_analysis.py` to analyze human evaluation scores and visualize the results.
 
 ---
 
-##  License
+## Datasets
 
-This dataset is released for **educational and research purposes**.  
-Feel free to use, modify, and expand the dataset while giving proper attribution.
+1. **Tamil Learning Material Dataset** – It has 90 text input learning materials used for TTS audio generation.
+2. **CMOS Evaluation Dataset** – It contains 30 participant's ratings for subjective evaluation of TTS systems.
 
+---
 
+## Citation
+
+If you use this dataset or scripts for research, you can cite as ;)
+
+```
+Sujai Shanmugam. (2026). "COMPARATIVE ANALYSIS OF TEXT TO SPEECH TOOLS FOR CREATING LEARNING MATERIALS IN TAMIL LANGUAGE", Bachelor's Thesis, RTU: Riga, Latvia, 2026.
+```
+
+---
+
+## Notes
+
+* Make sure all Python dependencies are installed:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+* The TTS scripts require internet access for some models (e.g., gTTS, Google Cloud TTS).
+* Audio outputs are saved in `results/generated_audio/`.
+
+---
+
+## Contact
+
+For questions or suggestions, feel free to reach out: **[sujaishanmugam.work@gmail.com](mailto:sujaishanmugam.work@gmail.com)**
+
+---
+
+This README provides a complete overview of the project, making it easy for anyone to navigate your repo, run the code, and understand your thesis evaluation work.
