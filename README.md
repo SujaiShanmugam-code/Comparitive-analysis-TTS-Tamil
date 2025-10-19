@@ -95,4 +95,3 @@ For questions or suggestions, feel free to reach out: **[sujaishanmugam.work@gma
 
 ---
 
-This README provides a complete overview of the project, making it easy for anyone to navigate your repo, run the code, and understand your thesis evaluation work.
