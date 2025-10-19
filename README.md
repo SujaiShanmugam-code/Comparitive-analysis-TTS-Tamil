@@ -1,4 +1,4 @@
-# Comparitive-analysis-TTS-Tamil
+# Comparitive analysis of TTS tools in Tamil Language
 
 A bachelor thesis work by the author, Sujai Shanmugam.
 
@@ -6,13 +6,13 @@ A bachelor thesis work by the author, Sujai Shanmugam.
 
 # Tamil Learning Material Dataset
 
-This repository contains a dataset created for research in the domain of **Tamil language learning**, **Computer Science**, and **Artificial Intelligence**. 
+This repository contains a comprehensive dataset which were created for research in the domain of **Tamil language learning**, **Computer Science**, **Computer Application**, **Tamil Ulagam material trascription**, **NLP**, and **Artificial Intelligence**. 
 
-The dataset is designed to support the bachelor thesis the educational projects, and experimentation in natural language processing (NLP), text analytics.
+The dataset was designed to support the bachelor thesis which was educational projects, and experimentation in natural language processing (NLP), text analytics and TTS comparison for creating learning materials.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Currently, the repository contains the dataset in **TXT format**:
 
@@ -22,27 +22,24 @@ Currently, the repository contains the dataset in **TXT format**:
 
 ---
 
-## 🔹 Dataset Purpose
+## Dataset Purpose
 
-The dataset is intended for:
+The dataset was intended for:
 
 - Academic research and thesis references.  
-- Learning material in Tamil language concepts in **Computer Science**,  **Computer Application**. and **AI**.   
+- Learning material in Tamil language concepts in **Computer Science**,  **Computer Application**, **NLP**.  and **AI**.   
 
 ---
 
-## 📚 Usage
+## Usage
 
 You can download the dataset directly from this repository for:
 
 ---
 
-## 📌 License
+##  License
 
 This dataset is released for **educational and research purposes**.  
 Feel free to use, modify, and expand the dataset while giving proper attribution.
 
-
-
-For questions or contributions, please open an **issue** in this repository.  
 
