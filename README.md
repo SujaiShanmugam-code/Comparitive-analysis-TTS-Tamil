@@ -91,7 +91,14 @@ Sujai Shanmugam. (2026). "COMPARATIVE ANALYSIS OF TEXT TO SPEECH TOOLS FOR CREAT
 
 ## Contact
 
-For questions or suggestions, feel free to reach out: **[sujaishanmugam.work@gmail.com](mailto:sujaishanmugam.work@gmail.com)**
+For questions or suggestions, feel free to reach out: **[sujai.shanmugam@edu.rtu.lv](mailto:sujai.shanmugam@edu.rtu.lv)**
 
 ---
 
+## Acknowledgements
+
+I would like to thank to my scientific adviser **Dr.sc.ing., Associate Professor Egons Lavendiels** for his guidance and support throughout this bachelor thesis.  
+
+And, the special thanks to my Tamil teacher **S. Managalam, M.Sc. Tamil Literature** for providing the female speech reference recordings, which were used for evaluating the Tamil output results.
+
+Last but not least, really big thanks to **Ahrane Mahaganapthy** for her continuous feedback, helping to clarify doubts, and providing valuable suggestions for this bachelor thesis! 
