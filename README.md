@@ -103,4 +103,4 @@ And, special thanks to my Tamil teacher, **S. Managalam**, M.Sc. Tamil Literatur
 
 Thanks to **Ahrane Mahaganapthy** for her continuous feedback, helping to clarify doubts, and providing valuable suggestions for this bachelor thesis.
 
-Last but not least, I would like to mention my heartfelt thanks to **Sahana Karthikeyan** for her endless support, encouragement, and motivation throughout this entire journey. Belief in me helped me stay focused during challenging moments while completing this bachelor thesis.
+Last but not least, I would like to mention my heartfelt thanks to **Sahana Karthikeyan** for her endless support, encouragement, and motivation throughout this entire journey.
